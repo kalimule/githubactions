@@ -1,6 +1,7 @@
 name: Sandbox - Build and Deployty
 
 on:
+  workflow_dispatch:
   push:
     branches: sandbox 
 #normally you wouldn't be deploying master branch pushes to Sandbox,
